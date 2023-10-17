@@ -1,0 +1,18 @@
+package net.javaguides.sms.controller;
+
+import org.springframework.stereotype.Controller;
+
+import net.javaguides.sms.service.StudentService;
+
+@Controller
+public class StudentCotroller {
+	private StudentService studentService;
+
+	public StudentCotroller(StudentService studentService) {
+		super();
+		this.studentService = studentService;
+	}
+	
+	
+
+}
